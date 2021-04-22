@@ -1,0 +1,357 @@
+body {
+    font-family: sans-serif;
+    padding: 0 4.5%;
+}
+
+.main-body {
+    padding: 0 8%;
+}
+
+/*hero section css*/
+#hero {
+    width: 100%;
+    height: 65vh;
+    background: url("../Images/banner.png") top center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.row.aester-main {
+    padding: 0 8%;
+}
+
+form.enquiry-form {
+    background-color: white;
+    padding: 7%;
+}
+
+form.enquiry-form .form-control {
+    margin-top: 3%;
+    border-radius: 0;
+    height: 42px;
+}
+
+span.enquire-now {
+    text-align: left;
+    font-size: 20.08px;
+    line-height: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+button.form-submit-btn,
+.know-more {
+    border-radius: 0;
+    font-weight: 600;
+    padding: 4% 9% 4% 9%;
+    font-size: 14.84px;
+    line-height: 18px;
+    margin-top: 8%;
+}
+
+button.know-more {
+    border: none;
+    color: white;
+       background: rgb(23,234,217);
+    background: linear-gradient(90deg, rgba(23,234,217,1) 0%, rgba(0,111,234,0.9223039557619923) 56%);
+    opacity: 0.8;
+    border-radius: 5px;
+    margin: 5%;
+    
+}
+
+input#inpmsg {
+    height: 72px;
+}
+
+.aster-text {
+    color: white;
+
+}
+
+h1.aster-heading {
+    font-size: 7vh;
+    font-weight: revert;
+    margin-bottom: -3px;
+
+}
+
+.aster-site-logo {
+    margin-bottom: 7%;
+}
+
+h4.aster-min-heading {
+    font-weight: 800;
+    font-size: 3.3vh;
+    letter-spacing: 2px;
+    line-height: 0.8;
+}
+
+h5.aster-min-treatu {
+    line-height: 1;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+span.aster-programme {
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    font-weight: 600;
+}
+
+span.aster-logy {
+    font-size: 22px;
+    letter-spacing: 3px;
+    opacity: 0.7;
+}
+
+button.btn.btn-danger.btn-appointment {
+    font-weight: 600;
+    padding: 15px;
+    opacity: 0.8;
+    font-size: 14.4px;
+    line-height: 17px;
+    margin: 4% 0;
+}
+
+/*hero section css end*/
+
+
+
+.aster-about {
+    margin-top: 5%;
+}
+
+
+
+.bone-marrow-transpla {
+    background-color: #5ea9d1;
+    padding: 3%;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 3%;
+
+}
+
+p.description {
+    font-size: 17px;
+}
+
+.section-headings {
+    font-weight: 600;
+    color: #22B78E;
+    margin: 30px 0;
+    font-size: 31px;
+    letter-spacing: 1.15px;
+
+}
+
+.row.health-card {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row.health-card > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin: 0 20px 20px 0;
+
+}
+
+i.health-icon {
+    font-size: 30px;
+    color: #22B78E;
+    margin-bottom: 14px;
+}
+
+.type-desc li {
+    padding-bottom: 2%;
+}
+
+.medicle-box {
+    border: 1px solid #E5EAFF;
+    border-radius: 4px;
+    box-shadow: 3px 5px 29px 0 rgb(187 165 228 / 10%);
+}
+
+/*doctor section CSS starts */
+.Adult-bmt,
+.pediatric-bmt {
+    color: #22B78E;
+    font-size: 24px;
+    letter-spacing: 0.99px;
+    line-height: 44px;
+    font-weight: 600;
+}
+
+.doctor-name {
+    color: #1D5AA6;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 600;
+
+}
+
+p.doctor-desc {
+    margin-top: 4%;
+    font-size: 15px;
+}
+
+.doctors-keyskills {
+    color: #1D5AA6;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    line-height: 3px;
+    text-align: center;
+    position: relative;
+}
+p.content.doctor-desc.see-more {
+    display: none;
+}
+/*doctor section CSS ends */
+@media only screen and (max-width: 720px) {
+
+    .main-body,
+    body {
+        padding: 0;
+    }
+
+    #hero {
+        height: 106vh;
+    }
+
+    span.aster-programme {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    span.aster-logy {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .section-headings{
+        font-size: 25px;
+    }
+
+    .doctors .member {
+        padding: 3%;
+    }
+
+    .image-container {
+        text-align: center;
+    }
+
+    .image-container img {
+        height: 300px !important;
+    }
+    .testimonal.image .col-md-3, .testimonal.image .col-md-5, .carousel-row .col-lg-6{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .row.health-card > [class*='col-'] {
+        width: 23%;
+    }
+      .testimonal-card {
+        width: 45%;
+        padding: 1%;
+        box-shadow: 4px 6px 6px 1px rgb(0 0 0 / 20%);
+    }
+
+    .testimonal-card.testimonal-card-right {
+        margin-left: 50px;
+    }
+    
+    
+    .carousel-caption.d-none.d-md-block {
+        position: initial;
+        text-align: initial;
+    }
+       .carousel-control-prev {
+        left: 82%;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        position: absolute;
+        top: -159%;
+        width: auto;
+    }
+
+    
+
+    .carousel-control-next {
+        right: 12%;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Frequently Asked Questions
+--------------------------------------------------------------*/
+
+button.accordion-button.collapsed {
+    font-size: 18px;
+    color: #1D5AA6;
+    font-weight: 600;
+    padding: 2rem;
+}
+
+.card.py-4 {
+    background: none;
+    border: none;
+}
+
+.aster-line {
+    width: 45px;
+    background: blue;
+    height: 2px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+div#carouselExampleDark {
+        margin-top: 5%;
+    }
+
+/*slider css*/
+
+ .d-block.w-100 {
+        width: 90px !important;
+    }
+.carousel-caption p{
+    font-style: italic;
+}
+     .text-center.p-3 {
+        font-size: 15px;
+        opacity: 0.5;
+        letter-spacing: 0.3px;
+    }
+
+.row.testimonal.image h5 {
+    font-weight: 800;
+}
+
+   button.btn.btn-danger.btn-appointment.btn-appointment-bottom {
+        background-color: #004498;
+        border-radius: 3.81px;
+        border: none;
+        padding: 18px 30px;
+        font-size: 16px;
+        margin: 5% 0;
+    }
+
+    .scroll-top {
+        float: right;
+        color: #0d6efd;
+        background-color: white;
+        border: none;
+    }
